@@ -1,0 +1,58 @@
+1. ----------------------------------
+$ pwd
+2.---------------------------------------
+$ mkdir test1
+3.---------------------------------------
+$ cd test1
+4.------------------------------------
+$ touch file1.txt file2.txt file3.txt
+5.------------------------------------
+$ ls
+6.------------------------------------
+$ mkdir test2
+7.------------------------------------
+$ rmdir test2
+8.------------------------------------
+$ rm file2.txt
+9.------------------------------------
+$ mkdir test3
+$ touch file_tst1.txt file_tst2.txt
+10.------------------------------------
+$ rm -rf test3
+11.------------------------------------
+$ mkdir test4
+12.------------------------------------
+$ mv test1/file1.txt test4
+$ mv test1/file3.txt test4
+13.------------------------------------
+$ echo line1>>file1.txt
+$ echo line2>>file1.txt
+$ echo line3>>file1.txtcd
+14.------------------------------------
+$ cat file1.txt
+15.------------------------------------
+$ echo line1>>file3.txt
+$ echo line2>>file3.txt
+$ echo line3>>file3.txt
+16.------------------------------------
+$ cat file1.txt file3.txt
+17.------------------------------------
+nano file3.txt
+^\ Replace
+Search (to replace): line1
+Replace with: row1
+Search (to replace) [line1]: line2
+Replace with: row2
+Search (to replace) [line3]: line3
+Replace with: row3
+
+
+
+
+
+
+
+
+
+
+
